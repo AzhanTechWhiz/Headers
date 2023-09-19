@@ -1,0 +1,84 @@
+.navbar {
+    --bs-navbar-padding-y: 0.3rem;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+
+.anchor {
+    margin-right: 30px;
+}
+
+nav {
+    background-color: rgb(29, 42, 53);
+}
+
+.nav-text,
+.nav-brand,
+.nav-link,
+.nav-link.active {
+    color: #ffff;
+}
+
+.nav-link:hover {
+    background-color: rgb(4, 170, 109);
+    color: white;
+}
+
+.container .nav .active {
+    color: white !important;
+}
+
+.btn {
+    background: transparent;
+    color: rgb(223, 217, 217);
+    font-family: "Source Sans Pro Topnav", sans-serif;
+    font-size: 13px;
+    border-radius: 20px;
+    margin-right: 10px;
+    border: none;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(117, 114, 114);
+    border-radius: 20px
+}
+
+.some {
+    background-color: rgb(9, 100, 67);
+    font-family: "Source Sans Pro Topnav", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 93px;
+    border-radius: 25px;
+    margin-right: -31px;
+    position: relative;
+    z-index: 5;
+}
+.come {
+    background-color: rgba(60, 252, 181, 0.637);
+    font-family: "Source Sans Pro Topnav", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    padding-left: 20px;
+    width: 93px;
+    height: 40px;
+    border: none;
+}
+.come:hover{
+    background-color: rgb(33, 201, 139);
+}

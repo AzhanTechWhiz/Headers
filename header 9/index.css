@@ -1,0 +1,146 @@
+body{
+    background: linear-gradient(45deg,  #070049 , #000000);
+}
+
+nav{
+    background: linear-gradient(45deg,  #070049 , #000000);
+}
+
+.navbar-brand{
+    background: linear-gradient(45deg, #070049  , #000000);
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    background: linear-gradient(45deg, black  , #070049);
+}
+.custom-header {
+    background-size: cover;
+    background-position: center;
+    color: #fafafa;
+    text-align: center;
+    padding: 170px 0;
+}
+.dropdown-menu{
+    background: linear-gradient(45deg, #070049  , #000000);
+    color: white;
+}
+.dropdown-menu .dropdown-item {
+    color: white; 
+}
+.dropdown-menu .dropdown-item:hover { 
+    background: linear-gradient(45deg, #000000  , #070049);
+    color: white;
+}
+.form-control{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+.form-control::placeholder{
+    color: white;
+}
+.dropdown-menu:hover{
+    background-color: black;
+}
+
+.custom-header h1 {
+    font-size: 3rem;
+}
+
+.custom-header p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;    
+}
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.button{
+    background: linear-gradient(45deg, #070049  , #525252);
+    border: none;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+
+.button:hover {
+    background: linear-gradient(45deg, #525252  , #070049);
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.custom-header .btn-get-started {
+    background: linear-gradient(45deg, #070049  , #000000);
+    border: none;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.custom-header .btn-get-started:hover {
+    background: linear-gradient(45deg, black  , #070049);
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+
+.cookies-popup {
+    display: none;
+    position: fixed;
+    bottom: 20px; 
+    left: 20px;
+    background: linear-gradient(45deg, #000000  , #300000);
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.cookies-popup:hover{
+    background: linear-gradient(45deg, #003000  ,black);
+
+}
+
+.cookies-popup p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.accept-cookies {
+ background: transparent;
+ border: 1px solid #ffffff;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+
+.accept-cookies:focus {
+    outline: none;
+}
+.card{
+    margin-left: 60px;
+    background: linear-gradient(45deg,  #070049 , #18124e);
+    color: white;
+}
+img{
+    width: 100%;
+}
+.carousel.slide{
+    margin-bottom: 120px;
+}
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+  }

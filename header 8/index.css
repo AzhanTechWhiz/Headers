@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(65deg, #3a0053  , #000000);
+}
+nav{
+    background: linear-gradient(45deg, #202020, #3a0053);
+}
+.custom-header {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.navbar-brand {
+    justify-content: space-between; 
+    font-weight: bold; 
+    margin-right: 30px;
+}
+
+
+
+.custom-header h1 {
+    font-size: 3rem;
+}
+
+.custom-header p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;    
+}
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+
+.custom-header .btn-get-started {
+    background-color: rgba(0, 0, 0, 0.274);
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-header .btn-get-started:hover {
+    background-color: rgba(255, 255, 255, 0.247);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 30px;
+}
